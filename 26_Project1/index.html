@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om's Fitness Club</title>
+</head>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+
+<style>
+    /* CSS RESET */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+        color: white;
+        background-size: cover;
+        /* To fit the image perfectly on the page*/
+        background-repeat: repeat-x;
+        /*Stop the reapeating of image on the website*/
+    }
+
+    .left {
+        position: absolute;
+        top: 30px;
+        left: 22px;
+        display: inline-block;
+
+        border-radius: 15px;
+        padding: 10px 10px;
+        left: 60px;
+    }
+
+    .center {
+        display: block;
+        width: 41%;
+        margin: 50px auto;
+    }
+
+    .right {
+        position: absolute;
+        top: 30px;
+        right: 22px;
+        display: inline-block;
+        border-radius: 15px;
+        padding: 10px 10px;
+
+    }
+
+
+    .navbar li {
+        display: inline-block;
+        border-radius: 15px;
+        font-size: 20px;
+        font-family: "Sofia", sans-serif;
+    }
+
+    .navbar li a {
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 5px 5px;
+        border-radius: 10px;
+        margin: 22px 20px;
+    }
+
+    .navbar li a:hover {
+        background-color: yellow;
+        color: black;
+
+    }
+
+    .left img {
+        width: 110px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-family: "Sofia", sans-serif;
+        font-size: 23px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        padding: 4px 4px;
+        background-color: black;
+        color: white;
+        border: 2px solid gray;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: "Sofia", sans-serif;
+
+    }
+
+    .btn:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    .container {
+
+        border-radius: 13px;
+        margin: 150px 20px;
+        padding: 20px 10px;
+        width: 35%;
+        height: 333px;
+        font-family: 'Bungee Spice', cursive;
+
+    }
+
+    .container form {
+        cursor: pointer;
+
+        width: 15%;
+
+    }
+
+    .cantainer form:hover {
+        background-color: yellow;
+
+    }
+
+    .container li:hover {
+        text-align: none;
+        margin: 10px 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-group {
+        margin: 20px 100px;
+    }
+
+    .form-group input {
+        background-color: lightgreen;
+        text-align: center;
+        border-radius: 10px;
+        width: 300px;
+        font-size: 15px;
+        font-family: "Audiowide", sans-serif;
+
+    }
+
+    .btn1 {
+        margin: 5px 225px;
+        background-color: black;
+        color: white;
+        border: 2px solid gray;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: "Sofia", sans-serif;
+        border-radius: 5px;
+
+    }
+
+    .btn1:hover {
+        background-color: greenyellow;
+        color: black;
+    }
+
+    .container2 {
+
+        position: absolute;
+        top: 200px;
+        right: 85px;
+    }
+
+    .container2 h1 {
+        font-family: 'Bungee Spice', cursive;
+        font-size: 30px;
+        margin: 3px 0px;
+    }
+
+    .montly {
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        display: inline-block;
+        padding: 12px 22px;
+        border-radius: 33px;
+        margin-left: 180px;
+        font-size: 25px;
+    }
+
+    .container2 li {
+        color: rgb(194, 156, 156);
+        margin-top: 25px;
+        text-align: center;
+        font-size: 18px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left Box For Logo -->
+        <div class="left">
+            <img src="img.jpeg" alt="">
+            <div>Om Fitness</div>
+        </div>
+
+        <!-- Center Box for Navigation -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="https://www.google.com" target="_blank" class="active">Home</a> </li>
+                <li><a href="https://www.facebook.com" target="_blank">About Us</a> </li>
+                <li><a href="https://www.instagram.com" target="_blank">Fitness Tips</a> </li>
+                <li><a href="https://www.twitter.com" target="_blank">Contact Us</a> </li>
+                <a href=""></a>
+            </ul>
+        </div>
+
+        <!-- Right box for Buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+        <div class="container2">
+            <h1>Monthly Charges And Benefits</h1>
+            <div class="montly">
+                Only 2500 Rs <br> Per Month
+            </div>
+            <li>
+                All The Equipments & Machines are Available
+            </li>
+            <li>
+                Special Trainer Also Available If You Need
+            </li>
+            <li>
+                You Can Also Take The Year Memebership
+            </li>
+            <li>
+                Full Of Air Conditiong Are There In GYM
+            </li>
+            <li>
+                Our Branch Are Also there In Shivaji Nagar
+            </li>
+            <li>
+                Opening Time: 6:00 AM
+            </li>
+            <li>
+                Closing Time: 11:00 PM
+            </li>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF PUNE</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name" id="">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age" id="">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Gender" id="">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Mobile No" id="">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Locality" id="">
+            </div>
+            <button class="btn1">Sumit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
